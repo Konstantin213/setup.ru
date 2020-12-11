@@ -1,0 +1,27 @@
+.filter {
+    width: 350px;
+    flex-direction: column;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.editBtn {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.modalDelete {
+    text-align: right;
+    margin: 10px 0;
+}
+@media (max-width: 415px) {
+    .modalDelete {
+        margin: 0;
+    }
+}

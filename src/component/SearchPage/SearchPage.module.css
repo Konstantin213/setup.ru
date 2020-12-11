@@ -1,0 +1,21 @@
+.searchPage {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnBack {
+    text-align: right;
+    margin-top: 50px;
+}
+
+@media (max-width: 415px) {
+    .searchPage {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .btnBack{
+        margin: 0;
+    }
+}
